@@ -8,11 +8,16 @@
 
   window.UNIT_DATA['unit-4'] = {
     title: 'Unit 4 — Angular Velocity & Inverse Circular Functions',
-    intro: String.raw`Three ideas on this test:
+    intro: String.raw`The ideas on this test:
 
 - **4-4 Angular & linear velocity.** How fast something *spins* ($\omega = \theta/t$) vs. how fast a point on it *moves* ($v = a/t$), linked by $v = r\omega$.
 - **4-5 Inverse circular function graphs.** The six inverse functions — memorize each one's domain, range, excluded values, and shape — then sketch transformed versions like $y = 2\pi + 3\arcsin\tfrac{x}{4}$.
 - **4-6 Exact values.** Evaluate things like $\operatorname{arcsec}(-\sqrt2)$ or $\arcsin(\cos\tfrac{\pi}{6})$ without a calculator.
+- **4-7 Writing one inverse as another.** $\arccos x = \operatorname{arccot}\frac{x}{\sqrt{1-x^2}}$: the reference triangle, then a range check for negative $x$.
+- **4-8 Equations.** Solve things like $\arctan 2x + \arctan 3x = \arctan 1$: take a trig function of both sides, then **check** for extraneous answers.
+- **4-9 Inequalities.** Solve things like $4\cos^2(x - \tfrac{\pi}{3}) - 3 \le 0$ on $[0, 2\pi)$: boundary points (from inverse functions) plus a sign chart.
+
+When you're ready, take the **Unit 4 final practice test** below. It's a full-length, timed test on all of it.
 
 Notation: $\arcsin x$ and $\sin^{-1}x$ mean the same thing here — the one **principal value**.`,
     sections: []

@@ -47,6 +47,7 @@ unit
 - **figures** — register `window.FIGURES['id'] = () => '<svg…>'` (Unit 4's `unit.js` has a small SVG builder, `U4.SV`) and put `{{fig:id}}` on its own line in any markdown. Colors come from CSS classes so diagrams follow light/dark mode.
 - **quiz** — array of generator functions `(rng, {M, R, Explore}) → question`. See `docs/unit-template/data.js` for every question type and the rng API.
 - **sketch questions** — `{ type: 'sketch', prompt, sketch: { view, snapX, snapY, targets: [{ label, kind: 'point'|'hline', x, y }], answerFns } }`. The student places each target on a blank grid; each one is graded (partial credit). Name the generator function `sketch…` so the practice-test "include sketch questions" toggle can find it. Targets must sit on the snap grid (the smoke test checks).
+- **typed math answers** — Unit 4's `tools.js` adds `check` helpers for `text` questions: `U4.convCheck(F, G, region)` (an expression in x such as `pi - arctan(sqrt(x^2-1))`, compared numerically and required to use only arcG), `U4.valuesCheck([…])` (solution lists like `2 ± sqrt(3)` or `no solution`), and `U4.intervalsCheck([...])` (interval notation like `[0, pi/6] U (5pi/6, 2pi)`). `U4.solveIneq` builds the interval answer key from a sign chart.
 - **practice tests** — `test.html` builds mixed tests from every registered unit's quiz generators automatically; nothing extra is needed per unit.
 
 `docs/unit-template/data.js` is a complete, commented skeleton — copy it to start a unit by hand.

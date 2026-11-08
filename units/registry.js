@@ -19,13 +19,18 @@ window.UNITS = [
   {
     id: 'unit-4',
     title: 'Unit 4 — Angular Velocity & Inverse Circular Functions',
-    subtitle: 'Chapter 4 review (sections 4-4 through 4-6)',
+    subtitle: 'Chapter 4 review: velocity, inverse functions, conversions, equations & inequalities',
     files: [
       'units/unit-4/unit.js',
+      'units/unit-4/tools.js',
       'units/unit-4/section-4.js',
       'units/unit-4/section-5.js',
       'units/unit-4/section-6.js',
-      'units/unit-4/challenge.js'
+      'units/unit-4/section-7.js',
+      'units/unit-4/section-8.js',
+      'units/unit-4/section-9.js',
+      'units/unit-4/challenge.js',
+      'units/unit-4/final.js'
     ]
   }
 ];
